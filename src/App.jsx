@@ -10,7 +10,7 @@ import NotFound from './components/NotFound';
 import './App.css';
 
 const App = () => (
-  <Router>
+  <Router basename='/Nxt-Blog'>
     <div className="app-container">
       <div className="responsive-container">
         <div className="app-body">
